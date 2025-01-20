@@ -46,6 +46,7 @@ namespace DevelopmentChallenge.Data.Classes
             _lado = ancho;
         }
 
+        [Obsolete("Use el metodo print de la clase Shape.")]
         public static string Imprimir(List<FormaGeometrica> formas, int idioma)
         {
             var sb = new StringBuilder();
